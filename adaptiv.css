@@ -1,0 +1,72 @@
+@media only screen and (max-width: 920px){
+    .more{
+        height:56px;
+        width:188px;
+        font-size: 10px;
+    }
+    .img {
+        height: 30px;
+        width: 35px;
+    }
+    .modal-content{
+        margin: 8% 1%;
+        padding: 25px;
+        border-radius: 30px;
+        height: 500px;
+        width: 850px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .more{
+        height:48px;
+        width:160px;
+        font-size: 9px;
+    }
+    .modal-content{
+        margin: 0;
+        padding: 15px;
+        border-radius: 30px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .letter{
+        letter-spacing: 2px;
+        font-size: 23px;
+        margin-top: 120px;
+        position: absolute;
+        top: 170px;
+        text-align: center;    
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .img-float{    
+        margin-top: -276px;
+        float:none;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .img-big{
+        width: 345px;
+        right: 220px;
+        margin: -43px 0px 100px 0px;
+    }
+    .img{
+        width: 37px;
+        margin: 0px 0px 0px 20px;
+        height: 40px;
+        position: absolute;
+        top: 232px;
+        display: flex;
+    }
+    .padding-right{
+        padding-right: 10px;
+    }
+    .block{
+        margin-bottom: 8px;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+    }
+    .button{
+        width: -webkit-fill-available;
+    }
+}
